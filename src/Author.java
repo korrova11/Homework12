@@ -1,11 +1,14 @@
 import java.sql.SQLOutput;
 
 public class Author {
-       String fullName1;
+     private   String fullName;
 
-     public   Author (String fullName1) {
-        this.fullName1 = fullName1;
+     public   Author (String fullName) {
+        this.fullName = fullName;
 
+    }
+    public String getFullName() {
+         return fullName;
     }
 
 
