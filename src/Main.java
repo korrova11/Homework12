@@ -7,7 +7,6 @@ public class Main {
         System.out.println(author2.getFullName());
 
 
-
       Book book1 = new Book("Игра в бисер", author1.getFullName(), 1986);
       book1.setYearPublication(2000);
       Book book2 = new Book("Идиот", author2.getFullName(), 1954);

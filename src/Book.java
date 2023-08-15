@@ -4,8 +4,6 @@ public class Book {
     private int yearPublication;
 
 
-
-
       Book(String titleBook, String author, int yearPublication) {
         this.titleBook = titleBook;
         this.author = author;
