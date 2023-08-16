@@ -12,7 +12,7 @@ public class Main {
       Book1 book2 = new Book1("Идиот", author2, 1954);
 
 
-        System.out.println("Название книги - "+book1.getTitleBook() +", автор -  "+author1.getFullName() +", год издания - "+ book1.getYearPublication());
+        System.out.println("Название книги - "+book1.getTitleBook() +", автор -  "+book1.getAuthor().getFullName() +", год издания - "+ book1.getYearPublication());
         System.out.println("Название книги - "+book2.getTitleBook() +", автор -  "+author2.getFullName() +", год издания - "+ book2.getYearPublication());
 
 
